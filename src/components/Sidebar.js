@@ -1,6 +1,6 @@
 import React from 'react';
 import './Sidebar.css'
-import Avatar from '@material-ui/core/Avatar';
+
 
 const Sidebar=()=>{
     

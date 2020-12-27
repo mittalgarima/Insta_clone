@@ -1,7 +1,7 @@
 import React from 'react';
 import './Stories.css'
 const Stories= () =>{
-    const [state, setState]=React.useState([
+    const [state]=React.useState([
 {id:1, image:"https://images.unsplash.com/photo-1573341830496-e89fcae7f5eb?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzF8fHJhbmRvbSUyMHBob3RvfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",name:"Rodrigo_435"},
 {id:2, image: " https://images.unsplash.com/photo-1600865494468-075a33020eed?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBob3RvfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60 ",name:"Evlien301"},  
 {id:3, image:"https://images.unsplash.com/photo-1541261095067-cc0229c9ba68?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjR8fGRhbmNlcnxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60",name:"Donald_435"},

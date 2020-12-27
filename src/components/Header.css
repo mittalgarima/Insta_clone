@@ -1,0 +1,104 @@
+:root {
+    --white:#fff;
+    --black:#000;
+}
+::-webkit-input-placeholder {
+    /* Edge */
+    color: #8e8e8e;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #8e8e8e;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  
+  ::placeholder {
+    color: #8e8e8e;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  
+
+.header {
+    background: var(--white);
+    padding: 0 200px;
+    display: flex;
+    position: fixed;
+    height: 54px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom:1px solid #efefef; 
+    align-items: center;
+
+}
+.app_header{
+width:33.33333333333333%;
+}
+.app_header_logo{
+    margin-top: 6px;
+}
+.app_header_logo img {
+object-fit: cover;
+display: block;
+
+}
+.Search{
+    width: 33.33333333333333%;
+    display: flex;
+  text-align:center;
+  margin-right: 60px;
+    
+}
+.SearchBar{
+    position: relative;
+  
+}
+.Search_Bar{
+    background: #fafafa;
+    border: 1px solid #d2dbdb;
+    padding: 7px 45px;
+    border-radius: 3px ;
+    outline: none;
+    font-size: 10px;
+    font-weight: 400;
+}
+.icon{
+    position: absolute;
+    left:30px;
+    top:4px;
+    color:silver;
+    font-size: 3px;
+    
+}
+.header_icons{
+    width: 33.33333333333333%;
+    display: flex;
+    margin-right: 200px ;
+   
+}
+.header_icons li {
+    list-style-type:none ;
+    color:black;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.all_icons{
+    font-size: 25px;
+    cursor: pointer;
+}
+@media (max-width:765px){
+    .header{
+        padding:0 20px;
+    }
+    .Search{
+        display:none;
+    }}
+
+
+

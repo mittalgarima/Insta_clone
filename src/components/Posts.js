@@ -1,7 +1,7 @@
 import React from "react";
 import './Posts.css'
 import Avatar from '@material-ui/core/Avatar';
-import {IconButton} from "@material-ui/core"
+
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import CommentIcon from '@material-ui/icons/Comment';
 import SendIcon from '@material-ui/icons/Send';
